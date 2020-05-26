@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Вёрска сайта на Bootstrap 4</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<nav class="navbar navbar-expend-md navbar-light bg-light sticky-top">
+		<div class="container-fluid">
+			<a href="#" class="navbar-brad"><img src="img/logo.png"></a>
+			<button class="navbar-toggler" type="button" 
+			data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a href="#" class="nav-link">Главная</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Про нас</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Контакты</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Сервисы</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Команда</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="carousel slide" data-ride="carousel" id="slides">
+		<ul class="carousel-indicators">
+			<li data-target="#slides" data-slide-to="0" class="active"></li>
+			<li data-target="#slides" data-slide-to="1"></li>
+			<li data-target="#slides" data-slide-to="2"></li>
+		</ul>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="img/slider_1.jpg">
+				<div class="carousel-caption">
+					<h1 class="display-2">Covid-19</h1>
+					<h3>ВСЁ О КОРОНАВИРУСЕ</h3>
+					<button type="button" class="btn btn-outline-light btn-lg">Карта распространения</button>
+					<button type="button" class="btn btn-warning btn-lg">Горячая линия</button>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="img/slider_2.jpg">
+			</div>
+			<div class="carousel-item">
+				<img src="img/slider_3.jpg">
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row jumbotron">
+			<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+				<p class="lead">COVID‑19 – инфекционное заболевание, вызванное новым видом коронавирусов, которым человек предположительно заразился от животных. Точный источник заражения пока не установлен.<br>
+				Коронавирусы — это семейство РНК-содержащих вирусов, которые чаще всего вызывают заболевания у животных, а некоторые из них — у людей. У людей инфекция обычно протекает в легкой форме с симптомами ОРВИ, не вызывая тяжелых осложнений.</p>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+				<a href="#"><button class="btn btn-success btn-lg" type="button">Читать далее</button></a>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row text-center alert">
+			<div class="col-12">
+				<h1 class="display-4">Как распространяется вирус?</h1>
+			</div>
+			<hr>
+			<div class="col-12">
+				<p class="lead">Заболевание передается через мелкие капли, выделяемые из носа или рта больного при кашле или чихании. Эти капли попадают на окружающие человека предметы и поверхности. Другие люди могут заразиться в результате прикосновения сначала к таким предметам или поверхностям, а затем – к глазам, носу или рту.Кроме того, заражение может произойти при вдыхании мелких капель, которые выделяются при кашле или чихании человека с COVID‑19. По этой причине важно держаться от больного человека на расстоянии более 1 метра. Риск заражение через воздух гораздо ниже.</p>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid padding">
+		<div class="row text-center padding">
+			<div class="col-xs-12 col-sm-6 col-md-4">
+				
+				<h3>Первый этап</h3>
+				<p>«Этап отрицания»</p>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4">
+				
+				<h3>Второй этап</h3>
+				<p>«Этап паники»</p>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4">
+				
+				<h3>Третий этап</h3>
+				<p>«Этап приятия»</p>
+			</div>
+		</div>
+		<hr class="my-4">
+	</div>
+	<div class="container-fluid padding">
+		<div class="row padding">
+			<div class="offset-lg-2 col-lg-4">
+				<h2>Что-то про COVID-19</h2>
+				<p>Коронавирус – это целое семейство вирусов, которое включает более 30 видов. Виды объединены в 2 подсемейства. Они могут заражать не только человека, но и животных – кошек, собак, птиц, свиней и крупный рогатый скот.
+				<br><br>Вирус был открыт в 1960 году и получил свое название из-за ворсинок на своей оболочке, стремящихся в различные стороны и напоминающих корону. Известно, что коронавирусы могут вызывать целый ряд заболеваний – от обычной простуды до тяжелого острого респираторного синдрома (ТОРС или «атипичной пневмонии»).
+				<br><br>Новый вид вируса 2019-ncoV был зафиксирован в декабре прошлого года в Китае в городе Ухань, провинции Хубэй. Тогда эксперты сообщили о вспышке пневмонии неизвестного происхождения. Китайским ученым удалось определить источник заражения. Предположительно, им являлся рынок морепродуктов в городе Ухань.</p>
+				<br>
+				<a href="#" class="btn btn-danger">Читать далее</a>
+			</div>
+			<div class="col-lg-6">
+				<br>
+				<img src="img/logo_1.png" class="img-fluid">
+			</div>
+		</div>
+	</div>
+	<figure>
+		<div class="fixed-wrap">
+			<div id="fixed">
+				
+			</div>
+		</div>
+	</figure>
+	<div class="text-center">
+		<button type="button" id="gifsBtn" class="btn btn-success" data-toggle="collapse" data-target="#gifs">Открыть блок</button>
+	</div>
+	<div id="gifs" class="collapse">
+		<div class="container-fluid padding">
+			<div class="row text-center">
+				<div class="col-sm-6 col-md-3">
+					<img src="img/gif_1.gif" class="gif">
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<img src="img/gif_2.gif" class="gif">
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<img src="img/gif_3.gif" class="gif">
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<img src="img/gif_4.gif" class="gif">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid padding">
+		<div class="row alert text-center">
+			<div class="col-12">
+				<h1 class="display-4">Виды вирусов</h1>
+			</div>
+			<hr>
+		</div>
+	</div>
+	<div class="container padding">
+		<div class="row padding">
+			<div class="col-md-4">
+				<div class="card">
+					<img src="img/f1.png" class="card-img-top">
+					<div class="card-body">
+						<h4 class="card-title">Коронавирус</h4>
+						<p class="card-text">Коронавирусы — это семейство РНК-содержащих вирусов, которые чаще всего вызывают заболевания у животных, а некоторые из них — у людей.</p>
+						<a href="#" class="btn btn-warning">Посмотреть</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card">
+					<img src="img/f2.png" class="card-img-top">
+					<div class="card-body">
+						<h4 class="card-title">Риновирус</h4>
+						<p class="card-text">Риновирусная инфекция — это острое респираторное заболевание, вызываемое вирусом рода Rhinovirus. Об этом сообщает "Рамблер".</p>
+						<a href="#" class="btn btn-warning">Посмотреть</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card">
+					<img src="img/f3.png" class="card-img-top">
+					<div class="card-body">
+						<h4 class="card-title">Аденовирус</h4>
+						<p class="card-text">Аденовирусная инфекция — группа инфекционных заболеваний человека, возбудителем которых являются аденовирусы.</p>
+						<a href="#" class="btn btn-warning">Посмотреть</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="container-fluid">
+		<div class="container">
+			<div class="row padding text-center">
+				<div class="col-12">
+					<h2>Наши контакты</h2>
+				</div>
+				<div class="col-12 social padding">
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+					<a href="#"><i class="fab fa-youtube"></i></a>
+					<a href="#"><i class="fab fa-facebook"></i></a>
+					<a href="#"><i class="fab fa-google-plus-g"></i></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
